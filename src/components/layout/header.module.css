@@ -1,0 +1,35 @@
+/* Header.module.css */
+.header {
+    background-color: var(--background-rgb);
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    margin: 20px 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--foreground-rgb);
+}
+
+.nav a:hover {
+    color: #007bff;
+}
+
+.header h1 {
+    font-size: 2em;
+
+    color: var(--foreground-rgb);
+}
