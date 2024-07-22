@@ -1,0 +1,28 @@
+/* BookList.module.css */
+.book {
+    border: 1px solid var(--background-rgb);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.5em;
+    color: var(--foreground-rgb);
+}
+
+.isbn {
+    color: var(--foreground-rgb);
+    margin-bottom: 10px;
+}
+
+.form {
+    background-color: var(--background-rgb);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.reader {
+    font-weight: bold;
+}
